@@ -33,8 +33,11 @@ function kleurInfo(){
    this.style.border = '5px solid' +this.dataset.kleur ;
 }
 
+let numberIdees = 0;
+
 function dubbelklik(){
-    document.getElementById('like').this.dataset.clicks + 1;
+    numberIdees = numberIdees +1; 
+    document.getElementById("like").innerHTML = numberIdees;
 }
 
 /*  
